@@ -1,0 +1,13 @@
+venv/
+env/
+.vs/
+__pycache__/
+node_modules/
+temp/
+tmp/
+.idea/
+*.sqlite3
+*.sqlite
+
+database
+admin
