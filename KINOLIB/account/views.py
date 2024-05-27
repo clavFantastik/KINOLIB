@@ -1,11 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.models import User
-from django import forms
 from home.models import Product
-class UserEditForm(forms.ModelForm):
-    class Meta:
-        model = User
-        fields = ['username', 'email']
+from .forms import UserEditForm
 
 
 def showInfo(request):
